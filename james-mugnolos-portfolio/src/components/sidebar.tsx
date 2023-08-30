@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import { NavbarContent } from "./navbarContent";
-import { useViewport } from "./customVeiwportHook";
+import { useViewport } from "../hoooks/customVeiwportHook";
 interface ISidebarProps {
   isOpen: boolean;
   setIsOpen: (value: React.SetStateAction<boolean>) => void;

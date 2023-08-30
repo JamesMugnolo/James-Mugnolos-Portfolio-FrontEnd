@@ -2,7 +2,7 @@ import { FunctionComponent, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { NavbarContent } from "./navbarContent";
-import { useViewport } from "./customVeiwportHook";
+import { useViewport } from "../hoooks/customVeiwportHook";
 import { Sidebar } from "./sidebar";
 export const Navbar: FunctionComponent = () => {
   const { width } = useViewport();
