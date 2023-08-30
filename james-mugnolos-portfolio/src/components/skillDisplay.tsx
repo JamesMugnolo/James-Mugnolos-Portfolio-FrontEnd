@@ -52,6 +52,7 @@ export const SkillDisplay: FunctionComponent<ISkillDisplayProps> = ({
           addItems(newCardsData);
         });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <div className="flex flex-col grow">

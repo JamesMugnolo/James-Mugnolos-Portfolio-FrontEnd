@@ -23,6 +23,7 @@ export const ProjectsPage: FunctionComponent = () => {
         const newCardsData: ProjectCardType[] = response.data;
         addItems(newCardsData);
       });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

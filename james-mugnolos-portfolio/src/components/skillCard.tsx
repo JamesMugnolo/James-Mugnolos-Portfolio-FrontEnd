@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useEffect } from "react";
+import { FunctionComponent } from "react";
 
 interface ISkillCardProps {
   title: string;

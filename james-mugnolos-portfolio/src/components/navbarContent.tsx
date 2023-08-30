@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
 import { NavLink } from "./navLink";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const NavbarContent: FunctionComponent = () => {
   return (
     <ul

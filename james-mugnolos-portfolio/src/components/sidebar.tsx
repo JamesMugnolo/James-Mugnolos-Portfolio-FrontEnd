@@ -1,7 +1,5 @@
-import { FunctionComponent, useState } from "react";
+import { FunctionComponent } from "react";
 import { NavbarContent } from "./navbarContent";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useViewport } from "./customVeiwportHook";
 interface ISidebarProps {
   isOpen: boolean;
