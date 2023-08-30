@@ -18,7 +18,7 @@ export const ProjectsPage: FunctionComponent = () => {
   };
   useEffect(() => {
     axios
-      .get(`${process.env.REACT_APP_BASE_URL}api/Projects`)
+      .get(`${process.env.REACT_APP_BACKEND_URL}api/Projects`)
       .then(function (response) {
         const newCardsData: ProjectCardType[] = response.data;
         addItems(newCardsData);

@@ -23,7 +23,7 @@ export const SkillDisplay: FunctionComponent<ISkillDisplayProps> = ({
     if (children === skillTypes.FRAMEWORKS) {
       axios
         .get(
-          `${process.env.REACT_APP_BASE_URL}api/Skills/${skillTypes.FRAMEWORKS}`
+          `${process.env.REACT_APP_BACKEND_URL}api/Skills/${skillTypes.FRAMEWORKS}`
         )
         .then(function (response) {
           const newCardsData: SkillCardType[] = response.data;
@@ -32,7 +32,9 @@ export const SkillDisplay: FunctionComponent<ISkillDisplayProps> = ({
     }
     if (children === skillTypes.TOOLS) {
       axios
-        .get(`${process.env.REACT_APP_BASE_URL}api/Skills/${skillTypes.TOOLS}`)
+        .get(
+          `${process.env.REACT_APP_BACKEND_URL}api/Skills/${skillTypes.TOOLS}`
+        )
         .then(function (response) {
           let newCardsData: SkillCardType[] = [];
           newCardsData = response.data;
@@ -42,7 +44,7 @@ export const SkillDisplay: FunctionComponent<ISkillDisplayProps> = ({
     if (children === skillTypes.LANGUAGES) {
       axios
         .get(
-          `${process.env.REACT_APP_BASE_URL}api/Skills/${skillTypes.LANGUAGES}`
+          `${process.env.REACT_APP_BACKEND_URL}api/Skills/${skillTypes.LANGUAGES}`
         )
         .then(function (response) {
           let newCardsData: SkillCardType[] = [];
