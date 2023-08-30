@@ -1,20 +1,15 @@
-import React, { FunctionComponent, useEffect, useState } from "react";
+import { FunctionComponent } from "react";
 import { skillTypes } from "../pages/skills";
 import { SkillCard } from "./skillCard";
-import { ISkillsDataLayout, SkillData } from "../StaticStores/skillsData";
+import { SkillData } from "../StaticStores/skillsData";
 
 interface ISkillDisplayProps {
   children: skillTypes;
 }
-type SkillCardType = {
-  id: number;
-  name: string;
-  comfortlevel: string;
-};
 export const SkillDisplay: FunctionComponent<ISkillDisplayProps> = ({
   children,
 }) => {
-  const skillCards = SkillData.filter((skills) => skills.type == children);
+  const skillCards = SkillData.filter((skills) => skills.type === children);
 
   return (
     <div className="flex flex-col grow">

@@ -1,13 +1,6 @@
-import { FunctionComponent, useEffect, useState } from "react";
+import { FunctionComponent } from "react";
 import { ProjectCard } from "../components/projectCard";
 import { ProjectData } from "../StaticStores/projectData";
-
-type ProjectCardType = {
-  id: number;
-  name: string;
-  description: string;
-  github_link: string;
-};
 
 export const ProjectsPage: FunctionComponent = () => {
   return (
