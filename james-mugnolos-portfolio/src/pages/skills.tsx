@@ -1,11 +1,6 @@
 import { FunctionComponent } from "react";
 import { SkillDisplay } from "../components/skillDisplay";
-
-export enum skillTypes {
-  LANGUAGES = "Languages",
-  TOOLS = "Tools",
-  FRAMEWORKS = "Frameworks",
-}
+import { skillTypes } from "../StaticStores/skillsData";
 export const SkillsPage: FunctionComponent = () => {
   return (
     <main className="flex flex-col md:flex-row lg:flex-row gap-6 p-10 justify-between w-[100%] h-[calc(100vh-85px)]">

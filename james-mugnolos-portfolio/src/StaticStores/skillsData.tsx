@@ -1,18 +1,20 @@
-import { skillTypes } from "../pages/skills";
-
 export enum comfortTypes {
   VC = "Very Comfortable",
   C = "Comfortable",
   SC = "Somewhat Comfortable",
 }
+export enum skillTypes {
+  LANGUAGES = "Languages",
+  TOOLS = "Tools",
+  FRAMEWORKS = "Frameworks",
+}
 
-export interface ISkillsDataLayout {
+interface ISkillsDataLayout {
   id: number;
   name: string;
   comfortLevel: comfortTypes;
   type: skillTypes;
 }
-
 export const SkillData: ISkillsDataLayout[] = [
   {
     id: 1,

@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { skillTypes } from "../pages/skills";
+import { skillTypes } from "../StaticStores/skillsData";
 import { SkillCard } from "./skillCard";
 import { SkillData } from "../StaticStores/skillsData";
 
