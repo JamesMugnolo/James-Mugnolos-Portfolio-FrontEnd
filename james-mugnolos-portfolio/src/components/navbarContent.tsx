@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import { NavLink } from "./navLink";
+import JMResume from "../JMResume.pdf";
 export const NavbarContent: FunctionComponent = () => {
   return (
     <ul
@@ -13,7 +14,9 @@ export const NavbarContent: FunctionComponent = () => {
       <NavLink to={"/Contact"}>Contact</NavLink>
       <li>
         <button className=" hover:scale-125 hover:bg-indigo-600 duration-300 bg-[#4071f4] py-3 px-5 md:text-2xl lg:text-3xl tracking-wide rounded-md font-bold text-white md:mr-10">
-          Resume
+          <a href={JMResume} target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
         </button>
       </li>
     </ul>
