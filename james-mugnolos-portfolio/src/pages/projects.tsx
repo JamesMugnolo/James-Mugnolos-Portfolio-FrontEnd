@@ -8,7 +8,7 @@ export const ProjectsPage: FunctionComponent = () => {
       <h1 className="text-4xl lg:text-5xl text-center font-semibold mb-5">
         Projects
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  h-full overflow-auto bg-[rgba(0,0,0,.05)] gap-5 p-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 h-full overflow-auto bg-[rgba(0,0,0,.05)] gap-5 p-4">
         <ul className="list-none">
           {ProjectData.map((project) => (
             <li key={project.id}>
@@ -20,31 +20,6 @@ export const ProjectsPage: FunctionComponent = () => {
             </li>
           ))}
         </ul>
-        <ProjectCard
-          title="project"
-          link="hththt"
-          description="THTHTHERTJETEJTHEJTHEJTHEJTHEJTHETJTjkfvnlewafvnerjfvaklwergvnjardwivaolwjdvn"
-        ></ProjectCard>
-        <ProjectCard
-          title="project"
-          link="hththt"
-          description="THTHTHERTJETEJTHEJTHEJTHEJTHEJTHETJTjkfvnlewafvnerjfvaklwergvnjardwivaolwjdvn"
-        ></ProjectCard>
-        <ProjectCard
-          title="project"
-          link="hththt"
-          description="THTHTHERTJETEJTHEJTHEJTHEJTHEJTHETJTjkfvnlewafvnerjfvaklwergvnjardwivaolwjdvn"
-        ></ProjectCard>
-        <ProjectCard
-          title="project"
-          link="hththt"
-          description="THTHTHERTJETEJTHEJTHEJTHEJTHEJTHETJTjkfvnlewafvnerjfvaklwergvnjardwivaolwjdvn"
-        ></ProjectCard>
-        <ProjectCard
-          title="project"
-          link="hththt"
-          description="THTHTHERTJETEJTHEJTHEJTHEJTHEJTHETJTjkfvnlewafvnerjfvaklwergvnjardwivaolwjdvn"
-        ></ProjectCard>
       </div>
     </main>
   );

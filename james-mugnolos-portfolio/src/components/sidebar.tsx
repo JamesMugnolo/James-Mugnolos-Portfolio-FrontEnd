@@ -24,7 +24,7 @@ export const Sidebar: FunctionComponent<ISidebarProps> = ({
         onClick={closeSidebar}
       >
         <div
-          className={`fixed top-0 right-0 h-full w-[60%] bg-[linear-gradient(to_left,_#eff8ff,_#eaf5ff,_#e5f1ff,_#e1edff,_#dee9ff);] ease-in-out duration-300 ${
+          className={`fixed top-0 right-0 h-full w-[65%] bg-[linear-gradient(to_left,_#eff8ff,_#eaf5ff,_#e5f1ff,_#e1edff,_#dee9ff);] ease-in-out duration-300 ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
           onClick={closeSidebar}
