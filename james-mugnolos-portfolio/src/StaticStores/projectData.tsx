@@ -7,9 +7,9 @@ interface IProjectDataLayout {
 export const ProjectData: IProjectDataLayout[] = [
   {
     id: 1,
-    name: "Simple Calculator App (school Project)",
+    name: "CI/CD Calculator (school Project)",
     description:
-      "This project was created to test out basic Gradle, Docker, and Gitlab pipeline fuctionalities to build, test, and deploy a simple app. Click the link below and view the ReadMe.txt file to find out more.",
+      "Using Java to write the app, Gradle to run tests and build the app, Docker to deploy the app in a container, and GitLab Pipelines to run the Docker and Gradle Commands, I created a simple calculator app that deployed to a container for every push to the repository that had no errors. Click the link below and view the ReadMe.txt file to find out more.",
     githubLink: "https://github.com/JamesMugnolo/SimpleCalculator",
   },
 ];
