@@ -7,7 +7,7 @@ export const AboutPage: FunctionComponent = () => {
         <section className="flex grow lg:flex-row lg:w-full md:justify-center lg:h-1/3 flex-col md:h-full md:w-1/2 md:mr-5 lg:mr-0">
           <div className="flex lg:w-1/2 lg:h-full md:h-1/3  md:mb-0 mb-5">
             <GenericCard
-              title="Summery"
+              title="Summary"
               description="I am an adaptable college graduate with knowledge of application development, configuration management, and database
 design. I aim to leverage my technical and communicative abilities to meet deadlines in an organized fashion and help the team achieve its goals."
             ></GenericCard>
@@ -30,12 +30,12 @@ design. I aim to leverage my technical and communicative abilities to meet deadl
           <div className="flex lg:w-1/3 lg:h-full md:h-1/3 lg:my-0 lg:mx-5 my-5">
             <GenericCard
               title="Organization "
-              description="As a Software Engineer, organization is a key part of success. I am always striving to implement more efficient ways to organize the tasks that need to be done, how the tasks will be done, and the timeframe for which said tasks should be done."
+              description="As a Software Engineer, organization is a key part of success. I am always striving to implement more efficient ways to organize the tasks that need to be done, decide how the tasks will be done, and procure an optimal timeframe for which said tasks should be done."
             ></GenericCard>
           </div>
           <div className="flex lg:mb-0 mb-5 sm:mb-0 md:mb-0 lg:w-1/3 md:h-1/3 lg:h-full">
             <GenericCard
-              title="knowledge"
+              title="Knowledge"
               description="Knowledge is the backbone of any Software Engineer's life. That is why I am constantly learning new skills and continually refining the skills I have already learned."
             ></GenericCard>
           </div>
