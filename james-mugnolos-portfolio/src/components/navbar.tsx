@@ -15,7 +15,11 @@ export const Navbar: FunctionComponent = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
+      {width > breakpoint ? (
+        ""
+      ) : (
+        <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
+      )}
       <nav className="list-none flex flex-row justify-between pt-5 items-center h-[85px]">
         <h1 className="ml-10 text-3xl md:text-4xl lg:text-5xl font-semibold text-[#4071f4]">
           portfolio

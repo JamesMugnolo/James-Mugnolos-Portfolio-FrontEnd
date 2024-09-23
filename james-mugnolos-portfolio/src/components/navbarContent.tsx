@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import { NavLink } from "./navLink";
-import JMResume from "../JMResume.pdf";
+import JMResume from "../MugnoloResume.pdf";
 export const NavbarContent: FunctionComponent = () => {
   return (
     <ul

@@ -7,12 +7,13 @@ export enum skillTypes {
   LANGUAGES = "Languages",
   TOOLS = "Tools",
   FRAMEWORKS = "Frameworks",
+  CERTIFICATIONS = "Certifications",
 }
 
 interface ISkillsDataLayout {
   id: number;
   name: string;
-  comfortLevel: comfortTypes;
+  comfortLevel: comfortTypes | string;
   type: skillTypes;
 }
 export const SkillData: ISkillsDataLayout[] = [
@@ -121,6 +122,30 @@ export const SkillData: ISkillsDataLayout[] = [
   {
     id: 18,
     name: "Git",
+    comfortLevel: comfortTypes.C,
+    type: skillTypes.FRAMEWORKS,
+  },
+  {
+    id: 19,
+    name: "AWS Certified Cloud Practicionter",
+    comfortLevel: "2023-2026",
+    type: skillTypes.CERTIFICATIONS,
+  },
+  {
+    id: 20,
+    name: "Angular",
+    comfortLevel: comfortTypes.C,
+    type: skillTypes.FRAMEWORKS,
+  },
+  {
+    id: 21,
+    name: "Spring",
+    comfortLevel: comfortTypes.C,
+    type: skillTypes.FRAMEWORKS,
+  },
+  {
+    id: 22,
+    name: "JDBC",
     comfortLevel: comfortTypes.C,
     type: skillTypes.FRAMEWORKS,
   },
